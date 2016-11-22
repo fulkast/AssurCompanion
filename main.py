@@ -36,6 +36,7 @@ n_photos = 0
 def restart():
     global users_dict_id_to_username, users_to_query, state
     state = States.STARTED
+    n_photos = 0
     print "Restarting bot..."
 
 
